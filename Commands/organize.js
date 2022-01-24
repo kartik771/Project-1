@@ -48,7 +48,7 @@ function organizeFn(dirPath) {
 
 function organizeHelper(src, dest) {
   let childNames = fs.readdirSync(src);
-  // console.log(childNames)
+
 
   for (let i = 0; i < childNames.length; i++) {
     let childAddress = path.join(src, childNames[i]);
@@ -68,13 +68,12 @@ function getCategory(FileName) {
   let ext = path.extname(FileName).slice(1);
   // We extracted extension names of the target files
 
-  //console.log(ext)
+  
 
   for (let key in types) {
     let cTypeArr = types[key];
     //We took out all the category type Arrays here
 
-    // console.log(cTypeArr)
 
     for (let i = 0; i < cTypeArr.length; i++) {
       if (ext == cTypeArr[i]) {
