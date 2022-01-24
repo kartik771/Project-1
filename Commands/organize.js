@@ -68,12 +68,9 @@ function getCategory(FileName) {
   let ext = path.extname(FileName).slice(1);
   // We extracted extension names of the target files
 
-  
-
   for (let key in types) {
     let cTypeArr = types[key];
     //We took out all the category type Arrays here
-
 
     for (let i = 0; i < cTypeArr.length; i++) {
       if (ext == cTypeArr[i]) {
