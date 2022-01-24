@@ -4,6 +4,7 @@ function helpFn() {
     1) tree - node FO.js tree <dirPath>
     1) organize - node FO.js organize <dirPath>
     1) help - node FO.js help <dirPath>`);
+    
 }
 
 module.exports = {
