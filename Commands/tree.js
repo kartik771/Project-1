@@ -27,7 +27,7 @@ function treeHelper(targetPath, indent) {
 
     let children = fs.readdirSync(targetPath);
 
-    //console.log(children)
+  
 
     for (let i = 0; i < children.length; i++) {
       let childPath = path.join(targetPath, children[i]);

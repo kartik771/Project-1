@@ -21,11 +21,11 @@ let inputArr = input;
 
 let command = inputArr[0];
 
-// console.log(command)
+
 
 switch (command) {
   case "tree":
-    //  console.log('Tree Implemented')
+    
     treeModule.treeFnKey(inputArr[1]);
     break;
   case "organize":

@@ -1,3 +1,5 @@
+
+//This module organizes different files according to their Extensions
 const fs = require("fs");
 
 const path = require("path");
