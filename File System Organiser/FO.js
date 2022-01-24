@@ -22,7 +22,6 @@ let inputArr = input;
 let command = inputArr[0];
 
 
-
 switch (command) {
   case "tree":
     
